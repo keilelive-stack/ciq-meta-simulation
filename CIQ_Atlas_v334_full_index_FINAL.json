@@ -1,0 +1,2511 @@
+{
+  "total_slots": 334,
+  "unique_ids": 334,
+  "confirmed": 334,
+  "placeholders": 0,
+  "sources_used": [
+    "CIQ_Nodes_v266R_plus.csv",
+    "CIQ_Nodes_v266R_merged.json",
+    "CIQ_Nodes_v266R_merged.csv",
+    "CIQ_Nodes_v266R.json",
+    "CIQ_Nodes_v266R.csv",
+    "CIQ_QM_Anwendungen.csv"
+  ],
+  "changes_applied": [
+    {
+      "idx": 304,
+      "old_id": "ciq_placeholder_304",
+      "new_id": "node_concept_pillar01_01"
+    },
+    {
+      "idx": 305,
+      "old_id": "ciq_placeholder_305",
+      "new_id": "node_concept_pillar01_02"
+    },
+    {
+      "idx": 306,
+      "old_id": "ciq_placeholder_306",
+      "new_id": "node_concept_pillar01_03"
+    },
+    {
+      "idx": 307,
+      "old_id": "ciq_placeholder_307",
+      "new_id": "node_concept_pillar01_04"
+    },
+    {
+      "idx": 308,
+      "old_id": "ciq_placeholder_308",
+      "new_id": "node_concept_pillar01_05"
+    },
+    {
+      "idx": 309,
+      "old_id": "ciq_placeholder_309",
+      "new_id": "node_concept_pillar01_06"
+    },
+    {
+      "idx": 310,
+      "old_id": "ciq_placeholder_310",
+      "new_id": "node_concept_pillar01_07"
+    },
+    {
+      "idx": 311,
+      "old_id": "ciq_placeholder_311",
+      "new_id": "node_concept_pillar01_08"
+    },
+    {
+      "idx": 312,
+      "old_id": "ciq_placeholder_312",
+      "new_id": "node_concept_pillar01_09"
+    },
+    {
+      "idx": 313,
+      "old_id": "ciq_placeholder_313",
+      "new_id": "node_concept_pillar01_10"
+    },
+    {
+      "idx": 314,
+      "old_id": "ciq_placeholder_314",
+      "new_id": "node_concept_pillar01_11"
+    },
+    {
+      "idx": 315,
+      "old_id": "ciq_placeholder_315",
+      "new_id": "node_concept_pillar01_12"
+    },
+    {
+      "idx": 316,
+      "old_id": "ciq_placeholder_316",
+      "new_id": "node_concept_pillar01_13"
+    },
+    {
+      "idx": 317,
+      "old_id": "ciq_placeholder_317",
+      "new_id": "node_concept_pillar01_14"
+    },
+    {
+      "idx": 318,
+      "old_id": "ciq_placeholder_318",
+      "new_id": "node_concept_pillar01_15"
+    },
+    {
+      "idx": 319,
+      "old_id": "ciq_placeholder_319",
+      "new_id": "node_concept_pillar01_16"
+    },
+    {
+      "idx": 320,
+      "old_id": "ciq_placeholder_320",
+      "new_id": "node_concept_pillar01_17"
+    },
+    {
+      "idx": 321,
+      "old_id": "ciq_placeholder_321",
+      "new_id": "node_concept_pillar01_18"
+    },
+    {
+      "idx": 322,
+      "old_id": "ciq_placeholder_322",
+      "new_id": "node_concept_pillar01_19"
+    },
+    {
+      "idx": 323,
+      "old_id": "ciq_placeholder_323",
+      "new_id": "node_concept_pillar01_20"
+    },
+    {
+      "idx": 324,
+      "old_id": "ciq_placeholder_324",
+      "new_id": "node_concept_pillar01_21"
+    },
+    {
+      "idx": 325,
+      "old_id": "ciq_placeholder_325",
+      "new_id": "node_concept_pillar01_22"
+    },
+    {
+      "idx": 326,
+      "old_id": "ciq_placeholder_326",
+      "new_id": "node_concept_pillar01_23"
+    },
+    {
+      "idx": 327,
+      "old_id": "ciq_placeholder_327",
+      "new_id": "node_concept_pillar02_01"
+    },
+    {
+      "idx": 328,
+      "old_id": "ciq_placeholder_328",
+      "new_id": "node_concept_pillar02_02"
+    },
+    {
+      "idx": 329,
+      "old_id": "ciq_placeholder_329",
+      "new_id": "node_concept_pillar02_03"
+    },
+    {
+      "idx": 330,
+      "old_id": "ciq_placeholder_330",
+      "new_id": "node_concept_pillar02_04"
+    },
+    {
+      "idx": 331,
+      "old_id": "ciq_placeholder_331",
+      "new_id": "node_concept_pillar02_05"
+    },
+    {
+      "idx": 332,
+      "old_id": "ciq_placeholder_332",
+      "new_id": "node_concept_pillar02_06"
+    },
+    {
+      "idx": 333,
+      "old_id": "ciq_placeholder_333",
+      "new_id": "node_concept_pillar02_07"
+    },
+    {
+      "idx": 334,
+      "old_id": "ciq_placeholder_334",
+      "new_id": "node_concept_pillar02_08"
+    }
+  ],
+  "nodes": [
+    {
+      "idx": 1,
+      "id": "ciq_energy_per_bit_unified_model_2025_11_01",
+      "category": "Kosmologie & Physik",
+      "status": "confirmed",
+      "source": "v334_reports"
+    },
+    {
+      "idx": 2,
+      "id": "ciq_entropie_metrik_2025_10_31",
+      "category": "",
+      "status": "confirmed",
+      "source": "v334_reports"
+    },
+    {
+      "idx": 3,
+      "id": "planck_resonanz_ci_orbit_erweiterung",
+      "category": "Kosmologie & Physik",
+      "status": "confirmed",
+      "source": "v334_reports"
+    },
+    {
+      "idx": 4,
+      "id": "ciq_run_full_v266",
+      "category": "",
+      "status": "confirmed",
+      "source": "v334_reports"
+    },
+    {
+      "idx": 5,
+      "id": "ciq_dm_information_archive",
+      "category": "",
+      "status": "confirmed",
+      "source": "v334_reports"
+    },
+    {
+      "idx": 6,
+      "id": "ciq_bh_guard_threshold",
+      "category": "Kosmologie & Physik",
+      "status": "confirmed",
+      "source": "v334_reports"
+    },
+    {
+      "idx": 7,
+      "id": "ciq_photon_information_massload",
+      "category": "Kosmologie & Physik",
+      "status": "confirmed",
+      "source": "v334_reports"
+    },
+    {
+      "idx": 8,
+      "id": "ciq_information_mass_bit",
+      "category": "",
+      "status": "confirmed",
+      "source": "v334_reports"
+    },
+    {
+      "idx": 9,
+      "id": "ciq_speed_transition_x3",
+      "category": "",
+      "status": "confirmed",
+      "source": "v334_reports"
+    },
+    {
+      "idx": 10,
+      "id": "ciq_ciq_range",
+      "category": "",
+      "status": "confirmed",
+      "source": "v334_reports"
+    },
+    {
+      "idx": 11,
+      "id": "ciq_zis_transition_curve",
+      "category": "",
+      "status": "confirmed",
+      "source": "v334_reports"
+    },
+    {
+      "idx": 12,
+      "id": "ciq_mirror_perspective_symmetry",
+      "category": "",
+      "status": "confirmed",
+      "source": "v334_reports"
+    },
+    {
+      "idx": 13,
+      "id": "ciq_fruehwarnsystem_integration",
+      "category": "",
+      "status": "confirmed",
+      "source": "v334_reports"
+    },
+    {
+      "idx": 14,
+      "id": "ciq_fractal_gift_operator",
+      "category": "",
+      "status": "confirmed",
+      "source": "v334_reports"
+    },
+    {
+      "idx": 15,
+      "id": "ciq_hack_truth_operator",
+      "category": "",
+      "status": "confirmed",
+      "source": "v334_reports"
+    },
+    {
+      "idx": 16,
+      "id": "ciq_grand_unified_logic_core",
+      "category": "",
+      "status": "confirmed",
+      "source": "v334_reports"
+    },
+    {
+      "idx": 17,
+      "id": "ciq_ego_inertia_tensor",
+      "category": "",
+      "status": "confirmed",
+      "source": "v334_reports"
+    },
+    {
+      "idx": 18,
+      "id": "ciq_communication_trigger_energy_model",
+      "category": "",
+      "status": "confirmed",
+      "source": "v334_reports"
+    },
+    {
+      "idx": 19,
+      "id": "ciq_dmt_frame_operator",
+      "category": "",
+      "status": "confirmed",
+      "source": "v334_reports"
+    },
+    {
+      "idx": 20,
+      "id": "ciq_canine_aura_resonance_operator",
+      "category": "",
+      "status": "confirmed",
+      "source": "v334_reports"
+    },
+    {
+      "idx": 21,
+      "id": "ciq_vacuum_cube_origin_operator",
+      "category": "",
+      "status": "confirmed",
+      "source": "v334_reports"
+    },
+    {
+      "idx": 22,
+      "id": "ciq_framework_overview_pdf_node",
+      "category": "",
+      "status": "confirmed",
+      "source": "v334_reports"
+    },
+    {
+      "idx": 23,
+      "id": "ciq_mathematical_axiom_extension_2025",
+      "category": "",
+      "status": "confirmed",
+      "source": "v334_reports"
+    },
+    {
+      "idx": 24,
+      "id": "ciq_axiom_of_structural_simplicity_v1",
+      "category": "",
+      "status": "confirmed",
+      "source": "v334_reports"
+    },
+    {
+      "idx": 25,
+      "id": "ciq_extended_phase_boundaries_v1",
+      "category": "",
+      "status": "confirmed",
+      "source": "v334_reports"
+    },
+    {
+      "idx": 26,
+      "id": "ciq_logic_mode_dual_bootstrap_v3",
+      "category": "",
+      "status": "confirmed",
+      "source": "v334_reports"
+    },
+    {
+      "idx": 27,
+      "id": "ciq_randomness_entropy_equivalence",
+      "category": "",
+      "status": "confirmed",
+      "source": "v334_reports"
+    },
+    {
+      "idx": 28,
+      "id": "ciq_blackhole_qubit_equivalence",
+      "category": "Kosmologie & Physik",
+      "status": "confirmed",
+      "source": "v334_reports"
+    },
+    {
+      "idx": 29,
+      "id": "ciq_logical_consistency_operator_v1",
+      "category": "",
+      "status": "confirmed",
+      "source": "v334_reports"
+    },
+    {
+      "idx": 30,
+      "id": "ciq_critique_entropy_operator",
+      "category": "",
+      "status": "confirmed",
+      "source": "v334_reports"
+    },
+    {
+      "idx": 31,
+      "id": "ciq_multiverse_computational_limit",
+      "category": "Kosmologie & Physik",
+      "status": "confirmed",
+      "source": "v334_reports"
+    },
+    {
+      "idx": 32,
+      "id": "ciq_human_blackhole_information_isomorphy_v1.2",
+      "category": "Kosmologie & Physik",
+      "status": "confirmed",
+      "source": "v334_reports"
+    },
+    {
+      "idx": 33,
+      "id": "ciq_human_blackhole_bridge_operator_v1",
+      "category": "",
+      "status": "confirmed",
+      "source": "v334_reports"
+    },
+    {
+      "idx": 34,
+      "id": "ciq_mind_horizon_operator_v1",
+      "category": "",
+      "status": "confirmed",
+      "source": "v334_reports"
+    },
+    {
+      "idx": 35,
+      "id": "ciq_mind_blackhole_communication_theory_v1",
+      "category": "Kosmologie & Physik",
+      "status": "confirmed",
+      "source": "v334_reports"
+    },
+    {
+      "idx": 36,
+      "id": "ciq_mind_blackhole_communication_theory_v1.1_hubble_extension",
+      "category": "Kosmologie & Physik",
+      "status": "confirmed",
+      "source": "v334_reports"
+    },
+    {
+      "idx": 37,
+      "id": "ciq_state_dependent_wave_interaction",
+      "category": "",
+      "status": "confirmed",
+      "source": "v334_reports"
+    },
+    {
+      "idx": 38,
+      "id": "ciq_state_question_coupling_operator_v1",
+      "category": "",
+      "status": "confirmed",
+      "source": "v334_reports"
+    },
+    {
+      "idx": 39,
+      "id": "delta07_parameter_master",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 40,
+      "id": "zis_zero_information_state",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 41,
+      "id": "ciq_origin_parameter_field",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 42,
+      "id": "ciq_universe_curiosity_axiom",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 43,
+      "id": "ciq_timeless_patch_universe",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 44,
+      "id": "ciq_quanten_neugier_forschung_komplex",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 45,
+      "id": "ciq_omni_timeseries_dataset",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 46,
+      "id": "ciq_goldstone_entropy_integration_v266",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 47,
+      "id": "ciq_entropie_kipppunkt_report",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 48,
+      "id": "ciq_node_11",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 49,
+      "id": "ciq_node_12",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 50,
+      "id": "ciq_node_13",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 51,
+      "id": "ciq_node_14",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 52,
+      "id": "ciq_node_15",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 53,
+      "id": "ciq_node_16",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 54,
+      "id": "ciq_node_17",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 55,
+      "id": "ciq_node_18",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 56,
+      "id": "ciq_node_19",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 57,
+      "id": "ciq_node_20",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 58,
+      "id": "ciq_node_21",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 59,
+      "id": "ciq_node_22",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 60,
+      "id": "ciq_node_23",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 61,
+      "id": "ciq_node_24",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 62,
+      "id": "ciq_node_25",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 63,
+      "id": "ciq_node_26",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 64,
+      "id": "ciq_node_27",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 65,
+      "id": "ciq_node_28",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 66,
+      "id": "ciq_node_29",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 67,
+      "id": "ciq_node_30",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 68,
+      "id": "ciq_node_31",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 69,
+      "id": "ciq_node_32",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 70,
+      "id": "ciq_node_33",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 71,
+      "id": "ciq_node_34",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 72,
+      "id": "ciq_node_35",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 73,
+      "id": "ciq_node_36",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 74,
+      "id": "ciq_node_37",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 75,
+      "id": "ciq_node_38",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 76,
+      "id": "ciq_node_39",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 77,
+      "id": "ciq_node_40",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 78,
+      "id": "ciq_node_41",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 79,
+      "id": "ciq_node_42",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 80,
+      "id": "ciq_node_43",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 81,
+      "id": "ciq_node_44",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 82,
+      "id": "ciq_node_45",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 83,
+      "id": "ciq_node_46",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 84,
+      "id": "ciq_node_47",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 85,
+      "id": "ciq_node_48",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 86,
+      "id": "ciq_node_49",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 87,
+      "id": "ciq_node_50",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 88,
+      "id": "ciq_node_51",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 89,
+      "id": "ciq_node_52",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 90,
+      "id": "ciq_node_53",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 91,
+      "id": "ciq_node_54",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 92,
+      "id": "ciq_node_55",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 93,
+      "id": "ciq_node_56",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 94,
+      "id": "ciq_node_57",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 95,
+      "id": "ciq_node_58",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 96,
+      "id": "ciq_node_59",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 97,
+      "id": "ciq_node_60",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 98,
+      "id": "ciq_node_61",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 99,
+      "id": "ciq_node_62",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 100,
+      "id": "ciq_node_63",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 101,
+      "id": "ciq_node_64",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 102,
+      "id": "ciq_node_65",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 103,
+      "id": "ciq_node_66",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 104,
+      "id": "ciq_node_67",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 105,
+      "id": "ciq_node_68",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 106,
+      "id": "ciq_node_69",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 107,
+      "id": "ciq_node_70",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 108,
+      "id": "ciq_node_71",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 109,
+      "id": "ciq_node_72",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 110,
+      "id": "ciq_node_73",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 111,
+      "id": "ciq_node_74",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 112,
+      "id": "ciq_node_75",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 113,
+      "id": "ciq_node_76",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 114,
+      "id": "ciq_node_77",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 115,
+      "id": "ciq_node_78",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 116,
+      "id": "ciq_node_79",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 117,
+      "id": "ciq_node_80",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 118,
+      "id": "ciq_node_81",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 119,
+      "id": "ciq_node_82",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 120,
+      "id": "ciq_node_83",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 121,
+      "id": "ciq_node_84",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 122,
+      "id": "ciq_node_85",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 123,
+      "id": "ciq_node_86",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 124,
+      "id": "ciq_node_87",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 125,
+      "id": "ciq_node_88",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 126,
+      "id": "ciq_node_89",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 127,
+      "id": "ciq_node_90",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 128,
+      "id": "ciq_node_91",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 129,
+      "id": "ciq_node_92",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 130,
+      "id": "ciq_node_93",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 131,
+      "id": "ciq_node_94",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 132,
+      "id": "ciq_node_95",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 133,
+      "id": "ciq_node_96",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 134,
+      "id": "ciq_node_97",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 135,
+      "id": "ciq_node_98",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 136,
+      "id": "ciq_node_99",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 137,
+      "id": "ciq_node_100",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 138,
+      "id": "ciq_node_101",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 139,
+      "id": "ciq_node_102",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 140,
+      "id": "ciq_node_103",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 141,
+      "id": "ciq_node_104",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 142,
+      "id": "ciq_node_105",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 143,
+      "id": "ciq_node_106",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 144,
+      "id": "ciq_node_107",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 145,
+      "id": "ciq_node_108",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 146,
+      "id": "ciq_node_109",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 147,
+      "id": "ciq_node_110",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 148,
+      "id": "ciq_node_111",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 149,
+      "id": "ciq_node_112",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 150,
+      "id": "ciq_node_113",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 151,
+      "id": "ciq_node_114",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 152,
+      "id": "ciq_node_115",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 153,
+      "id": "ciq_node_116",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 154,
+      "id": "ciq_node_117",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 155,
+      "id": "ciq_node_118",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 156,
+      "id": "ciq_node_119",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 157,
+      "id": "ciq_node_120",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 158,
+      "id": "ciq_node_121",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 159,
+      "id": "ciq_node_122",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 160,
+      "id": "ciq_node_123",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 161,
+      "id": "ciq_node_124",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 162,
+      "id": "ciq_node_125",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 163,
+      "id": "ciq_node_126",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 164,
+      "id": "ciq_node_127",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 165,
+      "id": "ciq_node_128",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 166,
+      "id": "ciq_node_129",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 167,
+      "id": "ciq_node_130",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 168,
+      "id": "ciq_node_131",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 169,
+      "id": "ciq_node_132",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 170,
+      "id": "ciq_node_133",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 171,
+      "id": "ciq_node_134",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 172,
+      "id": "ciq_node_135",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 173,
+      "id": "ciq_node_136",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 174,
+      "id": "ciq_node_137",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 175,
+      "id": "ciq_node_138",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 176,
+      "id": "ciq_node_139",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 177,
+      "id": "ciq_node_140",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 178,
+      "id": "ciq_node_141",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 179,
+      "id": "ciq_node_142",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 180,
+      "id": "ciq_node_143",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 181,
+      "id": "ciq_node_144",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 182,
+      "id": "ciq_node_145",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 183,
+      "id": "ciq_node_146",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 184,
+      "id": "ciq_node_147",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 185,
+      "id": "ciq_node_148",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 186,
+      "id": "ciq_node_149",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 187,
+      "id": "ciq_node_150",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 188,
+      "id": "ciq_node_151",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 189,
+      "id": "ciq_node_152",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 190,
+      "id": "ciq_node_153",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 191,
+      "id": "ciq_node_154",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 192,
+      "id": "ciq_node_155",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 193,
+      "id": "ciq_node_156",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 194,
+      "id": "ciq_node_157",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 195,
+      "id": "ciq_node_158",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 196,
+      "id": "ciq_node_159",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 197,
+      "id": "ciq_node_160",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 198,
+      "id": "ciq_node_161",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 199,
+      "id": "ciq_node_162",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 200,
+      "id": "ciq_node_163",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 201,
+      "id": "ciq_node_164",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 202,
+      "id": "ciq_node_165",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 203,
+      "id": "ciq_node_166",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 204,
+      "id": "ciq_node_167",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 205,
+      "id": "ciq_node_168",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 206,
+      "id": "ciq_node_169",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 207,
+      "id": "ciq_node_170",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 208,
+      "id": "ciq_node_171",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 209,
+      "id": "ciq_node_172",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 210,
+      "id": "ciq_node_173",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 211,
+      "id": "ciq_node_174",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 212,
+      "id": "ciq_node_175",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 213,
+      "id": "ciq_node_176",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 214,
+      "id": "ciq_node_177",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 215,
+      "id": "ciq_node_178",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 216,
+      "id": "ciq_node_179",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 217,
+      "id": "ciq_node_180",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 218,
+      "id": "ciq_node_181",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 219,
+      "id": "ciq_node_182",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 220,
+      "id": "ciq_node_183",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 221,
+      "id": "ciq_node_184",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 222,
+      "id": "ciq_node_185",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 223,
+      "id": "ciq_node_186",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 224,
+      "id": "ciq_node_187",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 225,
+      "id": "ciq_node_188",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 226,
+      "id": "ciq_node_189",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 227,
+      "id": "ciq_node_190",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 228,
+      "id": "ciq_node_191",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 229,
+      "id": "ciq_node_192",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 230,
+      "id": "ciq_node_193",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 231,
+      "id": "ciq_node_194",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 232,
+      "id": "ciq_node_195",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 233,
+      "id": "ciq_node_196",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 234,
+      "id": "ciq_node_197",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 235,
+      "id": "ciq_node_198",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 236,
+      "id": "ciq_node_199",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 237,
+      "id": "ciq_node_200",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 238,
+      "id": "ciq_node_201",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 239,
+      "id": "ciq_node_202",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 240,
+      "id": "ciq_node_203",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 241,
+      "id": "ciq_node_204",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 242,
+      "id": "ciq_node_205",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 243,
+      "id": "ciq_node_206",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 244,
+      "id": "ciq_node_207",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 245,
+      "id": "ciq_node_208",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 246,
+      "id": "ciq_node_209",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 247,
+      "id": "ciq_node_210",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 248,
+      "id": "ciq_node_211",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 249,
+      "id": "ciq_node_212",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 250,
+      "id": "ciq_node_213",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 251,
+      "id": "ciq_node_214",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 252,
+      "id": "ciq_node_215",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 253,
+      "id": "ciq_node_216",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 254,
+      "id": "ciq_node_217",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 255,
+      "id": "ciq_node_218",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 256,
+      "id": "ciq_node_219",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 257,
+      "id": "ciq_node_220",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 258,
+      "id": "ciq_node_221",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 259,
+      "id": "ciq_node_222",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 260,
+      "id": "ciq_node_223",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 261,
+      "id": "ciq_node_224",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 262,
+      "id": "ciq_node_225",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 263,
+      "id": "ciq_node_226",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 264,
+      "id": "ciq_node_227",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 265,
+      "id": "ciq_node_228",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 266,
+      "id": "ciq_node_229",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 267,
+      "id": "ciq_node_230",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 268,
+      "id": "ciq_node_231",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 269,
+      "id": "ciq_node_232",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 270,
+      "id": "ciq_node_233",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 271,
+      "id": "ciq_node_234",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 272,
+      "id": "ciq_node_235",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 273,
+      "id": "ciq_node_236",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 274,
+      "id": "ciq_node_237",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 275,
+      "id": "ciq_node_238",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 276,
+      "id": "ciq_node_239",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 277,
+      "id": "ciq_node_240",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 278,
+      "id": "ciq_node_241",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 279,
+      "id": "ciq_node_242",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 280,
+      "id": "ciq_node_243",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 281,
+      "id": "ciq_node_244",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 282,
+      "id": "ciq_node_245",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 283,
+      "id": "ciq_node_246",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 284,
+      "id": "ciq_node_247",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 285,
+      "id": "ciq_node_248",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 286,
+      "id": "ciq_node_249",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 287,
+      "id": "ciq_node_250",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 288,
+      "id": "ciq_node_251",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 289,
+      "id": "ciq_node_252",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 290,
+      "id": "ciq_node_253",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 291,
+      "id": "ciq_node_254",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 292,
+      "id": "ciq_node_255",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 293,
+      "id": "ciq_node_256",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 294,
+      "id": "ciq_node_257",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 295,
+      "id": "ciq_node_258",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 296,
+      "id": "ciq_node_259",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 297,
+      "id": "ciq_node_260",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 298,
+      "id": "ciq_node_261",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 299,
+      "id": "ciq_node_262",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 300,
+      "id": "ciq_node_263",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 301,
+      "id": "ciq_node_264",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 302,
+      "id": "ciq_node_265",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 303,
+      "id": "ciq_node_266",
+      "category": "",
+      "status": "confirmed",
+      "source": "ciq_nodes_266"
+    },
+    {
+      "idx": 304,
+      "id": "node_concept_pillar01_01",
+      "category": "",
+      "status": "confirmed",
+      "source": "v266R_plus/merged"
+    },
+    {
+      "idx": 305,
+      "id": "node_concept_pillar01_02",
+      "category": "",
+      "status": "confirmed",
+      "source": "v266R_plus/merged"
+    },
+    {
+      "idx": 306,
+      "id": "node_concept_pillar01_03",
+      "category": "",
+      "status": "confirmed",
+      "source": "v266R_plus/merged"
+    },
+    {
+      "idx": 307,
+      "id": "node_concept_pillar01_04",
+      "category": "",
+      "status": "confirmed",
+      "source": "v266R_plus/merged"
+    },
+    {
+      "idx": 308,
+      "id": "node_concept_pillar01_05",
+      "category": "",
+      "status": "confirmed",
+      "source": "v266R_plus/merged"
+    },
+    {
+      "idx": 309,
+      "id": "node_concept_pillar01_06",
+      "category": "",
+      "status": "confirmed",
+      "source": "v266R_plus/merged"
+    },
+    {
+      "idx": 310,
+      "id": "node_concept_pillar01_07",
+      "category": "",
+      "status": "confirmed",
+      "source": "v266R_plus/merged"
+    },
+    {
+      "idx": 311,
+      "id": "node_concept_pillar01_08",
+      "category": "",
+      "status": "confirmed",
+      "source": "v266R_plus/merged"
+    },
+    {
+      "idx": 312,
+      "id": "node_concept_pillar01_09",
+      "category": "",
+      "status": "confirmed",
+      "source": "v266R_plus/merged"
+    },
+    {
+      "idx": 313,
+      "id": "node_concept_pillar01_10",
+      "category": "",
+      "status": "confirmed",
+      "source": "v266R_plus/merged"
+    },
+    {
+      "idx": 314,
+      "id": "node_concept_pillar01_11",
+      "category": "",
+      "status": "confirmed",
+      "source": "v266R_plus/merged"
+    },
+    {
+      "idx": 315,
+      "id": "node_concept_pillar01_12",
+      "category": "",
+      "status": "confirmed",
+      "source": "v266R_plus/merged"
+    },
+    {
+      "idx": 316,
+      "id": "node_concept_pillar01_13",
+      "category": "",
+      "status": "confirmed",
+      "source": "v266R_plus/merged"
+    },
+    {
+      "idx": 317,
+      "id": "node_concept_pillar01_14",
+      "category": "",
+      "status": "confirmed",
+      "source": "v266R_plus/merged"
+    },
+    {
+      "idx": 318,
+      "id": "node_concept_pillar01_15",
+      "category": "",
+      "status": "confirmed",
+      "source": "v266R_plus/merged"
+    },
+    {
+      "idx": 319,
+      "id": "node_concept_pillar01_16",
+      "category": "",
+      "status": "confirmed",
+      "source": "v266R_plus/merged"
+    },
+    {
+      "idx": 320,
+      "id": "node_concept_pillar01_17",
+      "category": "",
+      "status": "confirmed",
+      "source": "v266R_plus/merged"
+    },
+    {
+      "idx": 321,
+      "id": "node_concept_pillar01_18",
+      "category": "",
+      "status": "confirmed",
+      "source": "v266R_plus/merged"
+    },
+    {
+      "idx": 322,
+      "id": "node_concept_pillar01_19",
+      "category": "",
+      "status": "confirmed",
+      "source": "v266R_plus/merged"
+    },
+    {
+      "idx": 323,
+      "id": "node_concept_pillar01_20",
+      "category": "",
+      "status": "confirmed",
+      "source": "v266R_plus/merged"
+    },
+    {
+      "idx": 324,
+      "id": "node_concept_pillar01_21",
+      "category": "",
+      "status": "confirmed",
+      "source": "v266R_plus/merged"
+    },
+    {
+      "idx": 325,
+      "id": "node_concept_pillar01_22",
+      "category": "",
+      "status": "confirmed",
+      "source": "v266R_plus/merged"
+    },
+    {
+      "idx": 326,
+      "id": "node_concept_pillar01_23",
+      "category": "",
+      "status": "confirmed",
+      "source": "v266R_plus/merged"
+    },
+    {
+      "idx": 327,
+      "id": "node_concept_pillar02_01",
+      "category": "",
+      "status": "confirmed",
+      "source": "v266R_plus/merged"
+    },
+    {
+      "idx": 328,
+      "id": "node_concept_pillar02_02",
+      "category": "",
+      "status": "confirmed",
+      "source": "v266R_plus/merged"
+    },
+    {
+      "idx": 329,
+      "id": "node_concept_pillar02_03",
+      "category": "",
+      "status": "confirmed",
+      "source": "v266R_plus/merged"
+    },
+    {
+      "idx": 330,
+      "id": "node_concept_pillar02_04",
+      "category": "",
+      "status": "confirmed",
+      "source": "v266R_plus/merged"
+    },
+    {
+      "idx": 331,
+      "id": "node_concept_pillar02_05",
+      "category": "",
+      "status": "confirmed",
+      "source": "v266R_plus/merged"
+    },
+    {
+      "idx": 332,
+      "id": "node_concept_pillar02_06",
+      "category": "",
+      "status": "confirmed",
+      "source": "v266R_plus/merged"
+    },
+    {
+      "idx": 333,
+      "id": "node_concept_pillar02_07",
+      "category": "",
+      "status": "confirmed",
+      "source": "v266R_plus/merged"
+    },
+    {
+      "idx": 334,
+      "id": "node_concept_pillar02_08",
+      "category": "",
+      "status": "confirmed",
+      "source": "v266R_plus/merged"
+    }
+  ]
+}
