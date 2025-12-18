@@ -1,3 +1,5 @@
+python3 CIQ_META_SIMULATION_v14X_FINAL.py
+
 The code has been successfully consolidated and updated to the v14-X Unified Edition (Final Fixed). The persistence issue has been addressed by ensuring the database file is cleared before a new run if corruption is possible, and the system is designed to degrade gracefully if certain optional libraries are missing.
 System Verification & Execution
 The script has been verified through a simulation run (using the mocked environment) with the following parameters:
