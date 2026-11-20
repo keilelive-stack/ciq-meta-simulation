@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CIQ | 10-µm IR – No-Fit-Messsimulator</title>
+<style>
+:root{color-scheme:dark;--bg:#081721;--card:#112a35;--border:#294a56;--ink:#e2f1f3;--dim:#b3c7d1;--a:#79dfed;--gold:#ffcf79;--warn:#ffbc99}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.48 system-ui,Arial,sans-serif}
+header{padding:2rem max(18px,calc((100vw - 1020px)/2));background:linear-gradient(135deg,#153c48,#08212f);border-bottom:1px solid var(--border)}
+header h1{font-size:clamp(1.55rem,4vw,2.4rem);margin:.35rem 0}header p{color:var(--dim);margin:0;max-width:760px}
+main{max-width:1020px;margin:auto;padding:1.4rem 18px 3rem}h2{font-size:1.24rem;margin:0 0 12px}.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.card{border:1px solid var(--border);background:var(--card);padding:17px;border-radius:14px;margin-bottom:16px}
+label{display:block;font-size:13px;color:var(--dim);margin:12px 0 4px}input,select{width:100%;padding:10px 11px;border:1px solid #486675;border-radius:7px;background:#0a202b;color:var(--ink);font:inherit}
+input:focus,select:focus{outline:2px solid var(--a)}button{background:#24667a;border:1px solid #4ca0a8;border-radius:8px;color:white;padding:10px 14px;cursor:pointer;margin:5px 8px 5px 0}
+pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#081e29;border-radius:9px;padding:14px;line-height:1.7;font-size:13px}
+#results div{padding:8px 0;border-bottom:1px solid #284552;overflow-wrap:anywhere}#results b{display:block;color:var(--dim);font-size:12px}#results strong{font-size:15px;color:var(--a);font-variant-numeric:tabular-nums}
+#statuses p{margin:7px 0;color:var(--dim)}.ref{border-left:3px solid var(--gold);padding:11px;background:#3e332078;border-radius:4px;margin:10px 0}.warn{color:var(--warn)}.muted{color:var(--dim);font-size:13px}.head{font-size:12px;letter-spacing:.14em;color:var(--a)}.row{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;align-items:center}
+@media(max-width:740px){.cards{grid-template-columns:1fr}header{padding:1.5rem 18px}}
+</style>
+</head>
+<body>
+<header><div class="head">CIQ · GEOMETRIE → PHASEN → MESSUNG → AUDIT</div><h1>10-µm-IR-Operator: G ohne versteckte Zielkonstante</h1><p>Separate No-Fit-Erweiterung zum historischen CIQ-Simulator. Jeder Eingabewert löst eine neue Berechnung und einen Status-Audit aus. Hochpräzise Dezimalquotienten ohne IEEE-754-Verlust bei 10⁻¹⁹.</p></header>
+<main>
+<div class="ref"><strong>Unveränderter Bezug: λ<sub>ref</sub> = 10,000000 µm.</strong> Der Bezug ist eine frei dokumentierte Messreferenz, keine zusätzlich behauptete Naturkonstante. Es werden weder G noch c, h oder ħ als Zahlenwerte hinterlegt.</div>
+<div class="cards">
+<section class="card"><h2>1. Einzelmessung und Geometrie</h2>
+<label for="delta_k">Gemessener relativer Frequenz-/Wellenlängentransfer δ = K<sub>IR</sub> − 1</label><input id="delta_k" type="text" inputmode="decimal" placeholder="z. B. 9.8e-20">
+<label for="sigma_delta_k">Standardunsicherheit σ<sub>δ</sub></label><input id="sigma_delta_k" type="text" placeholder="z. B. 2.3e-20">
+<label for="r_a_m">Quellradius r<sub>A</sub> [m] (unabhängig)</label><input id="r_a_m" type="text" placeholder="z. B. 6371000">
+<label for="r_b_m">Empfangsradius r<sub>B</sub> [m] (unabhängig)</label><input id="r_b_m" type="text" placeholder="z. B. 6371000.001">
+<label for="vacuum_provenance">Vakuum-Nachweis</label><select id="vacuum_provenance"><option value="unknown">Nicht angegeben</option><option value="documented">Vakuum experimentell dokumentiert</option><option value="unverified">Als Vakuum bezeichnet, unbelegt</option><option value="nonvacuum">Medium vorhanden</option></select>
+<button id="demo" type="button">Bothwell-Gradient einsetzen (nur δ, σ)</button><div class="muted">Publizierter Sr-87-Gradient; kein zusätzliches c oder G wird eingefügt. Die 10-µm-Länge ist nur die CIQ-Normierung, nicht die reale Sr-87-Laserwellenlänge.</div></section>
+<section class="card"><h2>2. Unabhängige Größen</h2>
+<p class="muted">Um eine dimensionsbehaftete Gravitationskonstante zu erhalten, braucht die Rückrechnung weitere unabhängig bestimmte Größen. Leere Felder führen bewusst zu „offen“.</p>
+<label for="calibration_lambda_m">Eigenständige Vakuum-Wellenlänge λ<sub>c</sub> [m]</label><input id="calibration_lambda_m" type="text" placeholder="Messwert, keine hinterlegte SI-Zahl">
+<label for="calibration_frequency_hz">Dazugehörige unabhängig gemessene Frequenz f<sub>c</sub> [Hz]</label><input id="calibration_frequency_hz" type="text" placeholder="c<sub>mess</sub> = λ × f">
+<label for="mass_kg">Unabhängig bekannte Quellenmasse M [kg]</label><input id="mass_kg" type="text" placeholder="Ohne M kann nur GM bestimmt werden">
+<label for="mass_provenance">Herkunft der Masse</label><select id="mass_provenance"><option value="unknown">Nicht nachgewiesen</option><option value="derived_from_g">Aus GM/G bestimmt (zirkulär)</option><option value="non_gravitational">Nichtgravitative Bestimmung dokumentiert</option></select>
+<label for="comparison_g_only">Vergleichswert für G (optional; NIE für Rechnung)</label><input id="comparison_g_only" type="text" placeholder="Nur nachträgliche Gegenprüfung">
+<p class="muted">Auch eine als unabhängig markierte Masse ist zunächst nur eine Angabe. Ein vollständiger physikalischer Nachweis verlangt Rohdaten, instrumentelle Kalibrierung, Unsicherheiten und ein geeignetes Feldmodell.</p>
+</section>
+</div>
+<section class="card"><div class="row"><h2>3. Fortlaufende No-Fit-Auswertung</h2><div><button id="clear" type="button">Eingaben löschen</button><button id="export" type="button">Audit als JSON</button></div></div><div id="results" aria-live="polite"></div><div id="statuses" aria-live="polite"></div></section>
+<section class="card"><h2>4. Prüfregeln</h2><pre>K_IR = 1 + δ                  q = 1 / K_IR
+λ_B,norm = 10 µm × K_IR       Δλ_norm = 10 µm × δ
+r_s = (K_IR² − 1) / (K_IR²/r_A − 1/r_B)
+c_mess = λ_c × f_c           GM = c_mess² × r_s / 2
+G_bedingt = GM / M_unabhängig
+</pre><p class="muted">Nur statische Schwarzschild-Außenmetrik mit r<sub>A</sub> &gt; r<sub>s</sub>, r<sub>B</sub> &gt; r<sub>A</sub>; reine Gravitation ohne Doppler-/Plasma-/Instrumenteneinfluss vorausgesetzt. Unsicherheit aus δ ist ein Teilbudget. Ein abweichender G-Wert beweist nicht automatisch einen Nichtvakuum-Lichtweg.</p><p class="muted">Die Archivtests vom 20.11.2026 sind als Arithmetik, Modellrechnungen und Softwareprüfungen dokumentiert; sie bestätigen keine unabhängigen 5D-/Sub-Planck-Messungen. Historische Originale bleiben unverändert.</p></section>
+</main>
+<script src="no_fit_core.js"></script>
+<script>
+'use strict';
+const keys=['delta_k','sigma_delta_k','r_a_m','r_b_m','calibration_lambda_m','calibration_frequency_hz','mass_kg','mass_provenance','vacuum_provenance','comparison_g_only'];
+const $=id=>document.getElementById(id);
+let result=null;
+function payload(){let obj={};for(let k of keys)obj[k]=$(k).value;return obj;}
+function render(){
+ const r=$('results'),s=$('statuses');
+ try{
+   result=CIQNoFit.evaluate(payload());
+   const fields=[['K_IR',result.K_IR],['q',result.q],['Δλ auf 10 µm normiert [m]',result.delta_lambda_reference_m],['λB auf 10 µm normiert [m]',result.lambda_B_reference_m],['c aus separatem Messpaar [m/s]',result.c_measured],['Schwarzschild-Radius r_s [m]',result.r_s_m],['GM [m³/s²]',result.GM],['G bedingt [m³/(kg·s²)]',result.G_conditional],['σ_G (nur δ-Beitrag)',result.sigma_G_delta_only],['Vergleichsrest (G/G_ref − 1)',result.residual_vs_reference]];
+   r.innerHTML='';for(let [name,value] of fields){let d=document.createElement('div'),b=document.createElement('b'),v=document.createElement('strong');b.textContent=name;v.textContent=value??'OFFEN – Eingaben/Unabhängigkeit fehlen';d.append(b,v);r.append(d);}
+   s.innerHTML='';for(let msg of result.status){let p=document.createElement('p');p.textContent='• '+msg;s.append(p);}
+ }catch(e){result={error:String(e)};r.textContent='Eingabefehler: '+e.message;s.textContent='Bitte Eingaben und Herkunft überprüfen.';}
+}
+for(let k of keys)$(k).addEventListener('input',render);
+$('demo').addEventListener('click',()=>{ $('delta_k').value='9.8e-20';$('sigma_delta_k').value='2.3e-20';render(); });
+$('clear').addEventListener('click',()=>{for(let k of keys)if($(k).tagName==='SELECT')$(k).selectedIndex=0;else $(k).value='';render();});
+$('export').addEventListener('click',()=>{render();const out={source:'CIQ No-Fit-Browser-Audit',timestamp:new Date().toISOString(),input:payload(),result};const data=new Blob([JSON.stringify(out,null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(data);a.download='ciq_ir_no_fit_audit.json';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);});
+render();
+</script>
+</body></html>
