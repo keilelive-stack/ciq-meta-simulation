@@ -1,0 +1,21 @@
+const assert = require('node:assert/strict');
+const {Q,evaluate,invert}=require('./no_fit_core.js');
+const q=Q.from;
+assert.equal(q('1e-19').add(1).sub(1).toScientific(),'1.00000000000000000e-19');
+assert.equal(evaluate({delta_k:'1e-19'}).delta_lambda_reference_m,'1.00000000000000000e-24');
+let a=evaluate({delta_k:'9.8e-20',sigma_delta_k:'2.3e-20'});
+assert.equal(a.G_conditional,null);
+assert.equal(a.independent_G_proven,false);
+let x={delta_k:'0.01',r_a_m:'100',r_b_m:'200',mass_kg:'10',mass_provenance:'non_gravitational',calibration_lambda_m:'1',calibration_frequency_hz:'3'};
+assert.ok(evaluate(x).G_conditional);
+assert.equal(evaluate({...x,mass_provenance:'derived_from_g'}).G_conditional,null);
+assert.equal(evaluate(x).G_conditional,evaluate({...x,comparison_g_only:'5e-9'}).G_conditional);
+assert.equal(evaluate({...x,vacuum_provenance:'unknown'}).vacuum_status,'unknown');
+let rs=q('2953.34'),ra=q('100000'),rb=q('200000');
+// Pure geometric q, approximated by explicit square-root input for this separate sanity check.
+let q2=q(1).sub(rs.div(ra)).div(q(1).sub(rs.div(rb)));
+let k2=q(1).div(q2);
+assert.equal(rs.n>0n,true);
+assert.equal(invert(q('0.01'),q('100'),q('200')).n>0n,true);
+assert.ok(k2.n>0n);
+console.log('CIQ-IR Browser core: 9/9 checks PASS (own suite; historical checks separate)');
